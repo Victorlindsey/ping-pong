@@ -36,3 +36,10 @@ p{
   font-family: cursive;
   background-color: red;
 }
+.form-check{
+  font-size: 20px;
+  max-height: 10px;
+}
+.btn btn-primary{
+  margin-bottom: 30px;
+}
