@@ -4,6 +4,22 @@ h1{
   text-align: center;
   background-color: yellow;
 }
-.list{
+.pong{
   font-size: 30px;
+  color: Blue;
+  font-family: cursive;
+  font-style: italic;
+  background-color: black;
+
+}
+h2{
+  color: red;
+  font-size:70px;
+  font-style: italic;
+  font-family: cursive;
+  padding-left: 90px;
+  background-image: url("/home/victor/Desktop/ping-pong/images/pong.jpeg");
+  background-repeat: no repeat;
+  padding-bottom: 250px;
+  text-align: center;
 }
