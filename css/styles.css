@@ -29,3 +29,10 @@ h3{
   color: green;
   background-color:  	#800080;
 }
+p{
+  font-size: 30px;
+  color: yellow;
+  font-style: italic;
+  font-family: cursive;
+  background-color: red;
+}
