@@ -1,15 +1,14 @@
-var melan = function(Number)
-{ for(Number=1;Number<30;Number ++){
-  if(Number%3===0 && Number%5===0){ alert("pingpong");
-}else if(Number%3===0){ alert("ping");
+var melan = function(valuate)
+{ for(Number=1;Number<valuate;Number ++){
+  if(Number%3===0 && Number%5===0){$("#lili").append("<li>pingpong</li>") ;
+}else if(Number%3===0){ $("#lili").append("<li>pong</li>");
 }else if(Number%5===0){
-                  alert("pong")
-                           }else{ alert(Numbers)};};};
-$(document).ready(function)  {
-  $("form#number") .submit(function(event){
+                  $("#victor").append("<li>pong</li>")
+                }else{ $("#lili").append("<li>"+ number+"</li>")};};};
+$(document).ready(function(){
+  $("form#ping-pong") .submit(function(event){
     event.preventDefault();
-    var Number=parseInt($("input#put").val());
-    var Result=melan(Number)
-    $("ul#peter").append("<li>Result</li>");
+    var valuate=parseInt($("input#put1").val());
+    melan(valuate);
   });
   });
