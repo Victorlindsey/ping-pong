@@ -30,7 +30,7 @@ h3{
   background-color:  	#800080;
 }
 p{
-  font-size: 30px;
+  font-size: 20px;
   color: yellow;
   font-style: italic;
   font-family: cursive;
@@ -41,5 +41,7 @@ p{
   max-height: 10px;
 }
 .btn btn-primary{
-  margin-bottom: 30px;
+  margin-top: 30px;
+  float: left;
+
 }
